@@ -292,13 +292,13 @@
                 android:layout_margin="8dp"
                 android:id="@+id/LogFood"
                 app:cardCornerRadius="8dp"
-                app:cardElevation="1dp"
-                android:clickable="true"
-                app:cardBackgroundColor="#f7f7f7">
+                app:cardElevation="4dp"
+                android:clickable="true">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/gradient_food_card"
                     android:orientation="vertical"
                     android:gravity="center">
 
@@ -336,12 +336,12 @@
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 app:cardCornerRadius="8dp"
-                app:cardElevation="1dp"
-                app:cardBackgroundColor="#f7f7f7">
+                app:cardElevation="4dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/gradient_exercise_card"
                     android:gravity="center">
 
                     <ImageView
@@ -381,13 +381,13 @@
                 android:layout_margin="8dp"
                 android:id="@+id/ViewReports"
                 app:cardCornerRadius="8dp"
-                app:cardElevation="1dp"
-                android:clickable="true"
-                app:cardBackgroundColor="#f7f7f7">
+                app:cardElevation="4dp"
+                android:clickable="true">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/gradient_reports_card"
                     android:gravity="center">
 
                     <ImageView
@@ -419,12 +419,12 @@
                 app:cardCornerRadius="8dp"
                 android:id="@+id/ContactDoctor"
                 android:clickable="true"
-                app:cardElevation="1dp"
-                app:cardBackgroundColor="#f7f7f7">
+                app:cardElevation="4dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/gradient_doctor_card"
                     android:gravity="center">
 
                     <ImageView

@@ -106,7 +106,8 @@
             android:exported="false" />
         <activity
             android:name=".PermissionsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.ChronicCare" />
 
         <!-- Broadcast Receiver for Alarms and Timezone changes -->
         <receiver

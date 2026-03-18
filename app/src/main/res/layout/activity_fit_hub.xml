@@ -22,7 +22,9 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
             android:text="FitHub"
-            android:textSize="28sp" />
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
 
         <TextView
             android:id="@+id/fithubDesc"
@@ -69,9 +71,8 @@
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
-                    app:cardBackgroundColor="#f7f7f7"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="1dp"
+                    app:cardElevation="4dp"
                     android:clickable="true"
                     android:focusable="true"
                     android:foreground="?android:attr/selectableItemBackground">
@@ -79,6 +80,7 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/gradient_food_card"
                         android:gravity="center">
 
                         <ImageView
@@ -108,9 +110,8 @@
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
-                    app:cardBackgroundColor="#f7f7f7"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="1dp"
+                    app:cardElevation="4dp"
                     android:clickable="true"
                     android:focusable="true"
                     android:foreground="?android:attr/selectableItemBackground">
@@ -118,6 +119,7 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/gradient_exercise_card"
                         android:gravity="center">
 
                         <ImageView
@@ -198,30 +200,30 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Breakfast"
-                                android:textSize="14sp"
-                                android:textColor="#808080" />
+                                android:textColor="#808080"
+                                android:textSize="14sp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Oatmeal with Berries"
-                                android:textSize="16sp"
+                                android:layout_marginBottom="6dp"
                                 android:fontFamily="sans-serif"
+                                android:text="Oatmeal with Berries"
                                 android:textColor="#333333"
-                                android:layout_marginBottom="6dp" />
+                                android:textSize="16sp" />
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:layout_marginBottom="12dp">
+                                android:layout_marginBottom="12dp"
+                                android:orientation="horizontal">
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="320 cal"
-                                    android:textSize="14sp"
-                                    android:textColor="#555555" />
+                                    android:textColor="#555555"
+                                    android:textSize="14sp" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -235,48 +237,48 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="45g carbs"
-                                    android:textSize="14sp"
-                                    android:textColor="#555555" />
+                                    android:textColor="#555555"
+                                    android:textSize="14sp" />
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:layout_marginBottom="16dp">
+                                android:layout_marginBottom="16dp"
+                                android:orientation="horizontal">
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:layout_marginEnd="8dp"
+                                    android:background="#F0F0F0"
+                                    android:paddingStart="8dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingEnd="8dp"
+                                    android:paddingBottom="4dp"
                                     android:text="Low sugar"
-                                    android:textSize="12sp"
-                                    android:paddingStart="8dp"
-                                    android:paddingEnd="8dp"
-                                    android:paddingTop="4dp"
-                                    android:paddingBottom="4dp"
-                                    android:background="#F0F0F0"
                                     android:textColor="#555555"
-                                    android:layout_marginEnd="8dp" />
+                                    android:textSize="12sp" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="High fiber"
-                                    android:textSize="12sp"
-                                    android:paddingStart="8dp"
-                                    android:paddingEnd="8dp"
-                                    android:paddingTop="4dp"
-                                    android:paddingBottom="4dp"
                                     android:background="#F0F0F0"
-                                    android:textColor="#555555" />
+                                    android:paddingStart="8dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingEnd="8dp"
+                                    android:paddingBottom="4dp"
+                                    android:text="High fiber"
+                                    android:textColor="#555555"
+                                    android:textSize="12sp" />
                             </LinearLayout>
 
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:backgroundTint="#2E8B57"
                                 android:text="Swap Meal"
                                 android:textColor="@android:color/white"
-                                android:backgroundTint="#2E8B57"
                                 app:cornerRadius="6dp" />
 
                         </LinearLayout>
@@ -313,30 +315,30 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Lunch"
-                                android:textSize="14sp"
-                                android:textColor="#808080" />
+                                android:textColor="#808080"
+                                android:textSize="14sp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Grilled Salmon Salad"
-                                android:textSize="16sp"
+                                android:layout_marginBottom="6dp"
                                 android:fontFamily="sans-serif"
+                                android:text="Grilled Salmon Salad"
                                 android:textColor="#333333"
-                                android:layout_marginBottom="6dp" />
+                                android:textSize="16sp" />
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:layout_marginBottom="12dp">
+                                android:layout_marginBottom="12dp"
+                                android:orientation="horizontal">
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="450 cal"
-                                    android:textSize="14sp"
-                                    android:textColor="#555555" />
+                                    android:textColor="#555555"
+                                    android:textSize="14sp" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -350,36 +352,36 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="20g carbs"
-                                    android:textSize="14sp"
-                                    android:textColor="#555555" />
+                                    android:textColor="#555555"
+                                    android:textSize="14sp" />
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:layout_marginBottom="16dp">
+                                android:layout_marginBottom="16dp"
+                                android:orientation="horizontal">
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="High protein"
-                                    android:textSize="12sp"
-                                    android:paddingStart="8dp"
-                                    android:paddingEnd="8dp"
-                                    android:paddingTop="4dp"
-                                    android:paddingBottom="4dp"
+                                    android:layout_marginEnd="8dp"
                                     android:background="#F0F0F0"
+                                    android:paddingStart="8dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingEnd="8dp"
+                                    android:paddingBottom="4dp"
+                                    android:text="High protein"
                                     android:textColor="#555555"
-                                    android:layout_marginEnd="8dp" />
+                                    android:textSize="12sp" />
                             </LinearLayout>
 
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:backgroundTint="#2E8B57"
                                 android:text="Swap Meal"
                                 android:textColor="@android:color/white"
-                                android:backgroundTint="#2E8B57"
                                 app:cornerRadius="6dp" />
 
                         </LinearLayout>
@@ -390,8 +392,8 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
                     android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="4dp">
 
@@ -416,30 +418,30 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Dinner"
-                                android:textSize="14sp"
-                                android:textColor="#808080" />
+                                android:textColor="#808080"
+                                android:textSize="14sp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Veggie Chicken Wrap"
-                                android:textSize="16sp"
+                                android:layout_marginBottom="6dp"
                                 android:fontFamily="sans-serif"
+                                android:text="Veggie Chicken Wrap"
                                 android:textColor="#333333"
-                                android:layout_marginBottom="6dp" />
+                                android:textSize="16sp" />
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:layout_marginBottom="12dp">
+                                android:layout_marginBottom="12dp"
+                                android:orientation="horizontal">
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="380 cal"
-                                    android:textSize="14sp"
-                                    android:textColor="#555555" />
+                                    android:textColor="#555555"
+                                    android:textSize="14sp" />
 
                                 <TextView
                                     android:layout_width="wrap_content"
@@ -453,36 +455,36 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="35g carbs"
-                                    android:textSize="14sp"
-                                    android:textColor="#555555" />
+                                    android:textColor="#555555"
+                                    android:textSize="14sp" />
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:layout_marginBottom="16dp">
+                                android:layout_marginBottom="16dp"
+                                android:orientation="horizontal">
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Easy prep"
-                                    android:textSize="12sp"
-                                    android:paddingStart="8dp"
-                                    android:paddingEnd="8dp"
-                                    android:paddingTop="4dp"
-                                    android:paddingBottom="4dp"
+                                    android:layout_marginEnd="8dp"
                                     android:background="#F0F0F0"
+                                    android:paddingStart="8dp"
+                                    android:paddingTop="4dp"
+                                    android:paddingEnd="8dp"
+                                    android:paddingBottom="4dp"
+                                    android:text="Easy prep"
                                     android:textColor="#555555"
-                                    android:layout_marginEnd="8dp" />
+                                    android:textSize="12sp" />
                             </LinearLayout>
 
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:backgroundTint="#2E8B57"
                                 android:text="Swap Meal"
                                 android:textColor="@android:color/white"
-                                android:backgroundTint="#2E8B57"
                                 app:cornerRadius="6dp" />
 
                         </LinearLayout>
