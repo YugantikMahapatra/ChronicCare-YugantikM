@@ -367,6 +367,8 @@ public class HomeActivity extends BottomNavActivity {
             return true;
         });
         
+        rowView.startAnimation(android.view.animation.AnimationUtils.loadAnimation(this, R.anim.fade_slide_up));
+        
         todaysScheduleContainer.addView(rowView);
     }
 
